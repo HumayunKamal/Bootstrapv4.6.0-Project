@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="fontawesome-free-5.15.3-web\css\all.css">
+
+  <!-- custum bootstrap style -->
+  <link rel="stylesheet" href="css\custom.css" type="text/css" />
+
+  <title>Project with Bootstrap Practice</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark">
+    <a class="navbar-brand " href="#">Aurora Grove </a>
+    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+      aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="collapsibleNavId">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="#about">About</a>
+        </li>
+        <a class="nav-link" href="#explore">Explore</a>
+        </li>
+        <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        <a class="nav-link" href="#book" data-toggle="modal" data-target="#exampleModal">Book</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="showcase" class="d-flex flex-column justify-content-center align-items-center">
+
+    <div class="overlay"></div>
+    <div class="header container text-white text-center">
+      <h5 class="display-5 mb-0">MODERN CAMPING</h5>
+      <h4 class="display-2">AURORA GROVE</h4>
+      <p class="lead d-none d-md-block">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+      <button class=" btn btn-lg btn-primary px-5" id="book" data-toggle="modal" data-target="#exampleModal">
+        BOOK NOW
+      </button>
+    </div>
+  </section>
+
+  <section class="features" id="about">
+    <div class="container text-center mt-5">
+      <h2>YOU SHOW UP WE PITCH THE TENT</h2>
+      <div class="row">
+        <div class="col-md-4 col-sm-12 p-4 ">
+          <img class="img-fluid d-none d-md-inline" src="Image\icons\tent.png" alt="">
+          <h2>Amenities You Want</h2>
+          <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo rerum cum laudantium accusamus.
+            Ipsa consequuntur cupiditate temporibus impedit.</p>
+        </div>
+        <div class="col-md-4 col-sm-12 p-4">
+          <img class="img-fluid d-none d-md-inline" src="Image\icons\campfire.png" alt="">
+          <h2>Amenities You Want</h2>
+          <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo rerum cum laudantium accusamus.
+            Ipsa consequuntur cupiditate temporibus impedit.</p>
+        </div>
+        <div class="col-md-4 col-sm-12 p-4">
+          <img class="img-fluid d-none d-md-inline" src="Image\icons\nature.png" alt="">
+          <h2>Amenities You Want</h2>
+          <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo rerum cum laudantium accusamus.
+            Ipsa consequuntur cupiditate temporibus impedit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="explore mt-5" id="explore">
+    <div class="container text-center mt-2 p-3">
+      <h3>WE’VE CREATED A CAMPING EXPERIENCE THAT’S TURN-KEY AND HASSLE FREE.</h3>
+      <div class="row m-2">
+        <div class="col-md-6 p-3">
+          <div class="card ">
+            <img class="card-img-top" src="Image\winter.jpg" alt="">
+            <div class="card-body">
+              <h4 class="card-title text-primary">EXPERIENCE</h4>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae doloribus
+                adipisci quasi.</p>
+              <button class="btn btn-outline-primary">Go Somewhere</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+          <div class="card ">
+            <img class="card-img-top" src="Image\dogs.jpg" alt="">
+            <div class="card-body">
+              <h4 class="card-title text-primary">EXPERIENCE</h4>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae doloribus
+                adipisci quasi.</p>
+              <button class="btn btn-outline-primary">Go Somewhere</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="feedback">
+    <div class="container text-center mt-4 mb-4">
+      <h2>WHAT OUR HAPPY CAMPERS ARE SAYING</h2>
+      <div class="row m-4">
+        <div class="col-md-4 p-3">
+          <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
+          <blockquote class="blockquote">
+            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, fuga dolore nemo corrupti
+              voluptatum aperiam!</p>
+            <footer class="blockquote-footer">Mark Tawin</footer>
+          </blockquote>
+        </div>
+        <div class="col-md-4  p-3">
+          <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
+          <blockquote class="blockquote">
+            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, fuga dolore nemo corrupti
+              voluptatum aperiam!</p>
+            <footer class="blockquote-footer">Mark Tawin</footer>
+          </blockquote>
+        </div>
+        <div class="col-md-4 p-3">
+          <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
+          <blockquote class="blockquote">
+            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, fuga dolore nemo corrupti
+              voluptatum aperiam!</p>
+            <footer class="blockquote-footer">Mark Tawin</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slider">
+    <div class="container mt-4 mb-4">
+      <div class="row">
+        <div class="col-lg-7">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Image\slider\caribou.jpg" class="d-block w-100" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="Image\slider\coffee.jpg" class="d-block w-100" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="Image\slider\fire.jpg" class="d-block w-100" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="Image\slider\trees.jpg" class="d-block w-100" alt="">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-5 mt-2">
+          <h2>CAMPING MADE COZY</h2>
+          <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint vel asperiores quos minima vero
+            quod, perferendis ut. Officia porro quo aspernatur, voluptas, quisquam nulla vel, reiciendis eum tempore
+            molestiae beatae?</p>
+          <p>See for yourself
+            <i class="fas fa-arrow-right text-primary"></i>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery mt-5">
+    <div class="container mt-6 text-center">
+      <h2>WHAT OTHER ARE SAYING</h2>
+      <h4 class="text-primary">#AURORAGROVE</h4>
+      <div class="row mt-4">
+        <div class="col-md-6">
+          <div class="row mb-4">
+            <div class="col-6">
+              <img class="img-fluid" src="Image\gallery\social1.png" alt="">
+            </div>
+            <div class="col-6">
+              <img class="img-fluid" src="Image\gallery\social2.png" alt="">
+            </div>
+          </div>
+          <div class="row mb-4">
+            <div class="col-6">
+              <img class="img-fluid" src="Image\gallery\social3.png" alt="">
+            </div>
+            <div class="col-6">
+              <img class="img-fluid" src="Image\gallery\social4.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row mb-4">
+            <div class="col-6">
+              <img class="img-fluid" src="Image\gallery\social5.png" alt="">
+            </div>
+            <div class="col-6">
+              <img class="img-fluid" src="Image\gallery\social6.png" alt="">
+            </div>
+          </div>
+          <div class="row mb-4">
+            <div class="col-6">
+              <img class="img-fluid" src="Image\gallery\social7.png" alt="">
+            </div>
+            <div class="col-6">
+              <img class="img-fluid" src="Image\gallery\social8.png" alt="">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="quote">
+    <div class="container text-center mt-5 mb-5">
+      <i class="fas fa-quote-left fa-3x text-primary mb-3"></i>
+      <blockquote class="blockquote">
+        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, molestiae explicabo alias aperiam a
+          repudiandae perferendis sapiente nisi sunt maxime atque. Est in libero aliquam excepturi, numquam iure aut
+          consequatur?</p>
+        <footer class="blockquote-footer">Mark Tawin</footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="bg-dark" id="contact">
+    <div class="container text-center text-white py-5">
+      <h2 class="lead">JOIN OUR NEWSLETTER FOR DEALS AND UPDATES AND OFFERS</h2>
+      <div class="row justify-content-center mt-4">
+        <div class="col-10 col-sm-8 col-md-6 col-lg-4">
+          <div class="input-group flex-nowrap ">
+            <input type="text" class="form-control" placeholder="Enter Email" aria-label="Username"
+              aria-describedby="addon-wrapping" >
+            <div class="input-group-append">
+              <div class="btn btn-primary btn-md">Join Now</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <setion class="footer">
+    <ul class="nav justify-content-center bg-secondary flex-column flex-sm-row">
+        <li class="nav-item">
+            <a class="nav-link text-white " href="#">FAQ</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" href="#">EXPERINECE</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white " href="#">EXPLORE</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white " href="#">CONTACT</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white " data-toggle="modal" data-target="#exampleModal" href="#">BOOK NOW</a>
+        </li>
+    </ul>
+  </setion>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New Booking</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Please fill out the form below and we'll get bak to you as soon as possible</p>
+        <form action="" method="get">
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email"
+              class="form-control" name="" id="email" aria-describedby="helpId" placeholder="name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="numberofadults">Number of Adults</label>
+            <select class="form-control" name="" id="numberofadults">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="numberofchild">Number of Child</label>
+            <select class="form-control" name="" id="numberofchild">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="additionalmessage">Additional Requests</label>
+            <textarea class="form-control" name="" id="additionalmessage" rows="3"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Submit Request</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- bootstrap javascript -->
+  <script src="bootstrap-4.6.0\Jquery\jquery.slim.min.js"></script>
+  <script src="bootstrap-4.6.0\js\bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
